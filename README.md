@@ -40,7 +40,8 @@ Python libraries used:
 We have used one source as a reference to implement code of the weather 
 station and have both RaspberryPi and our local device (laptops) to 
 communicate with each other as the temperature and humidity sensor 
-collects data: https://www.dexterindustries.com/GrovePi/projects-for-the-raspberry-pi/raspberry-pi-temperature-sensor/
+collects data: 
+https://www.dexterindustries.com/GrovePi/projects-for-the-raspberry-pi/raspberry-pi-temperature-sensor/
 
 Physical Components Required:
 - Raspberry PI 4
