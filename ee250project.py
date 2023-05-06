@@ -26,10 +26,16 @@ while True:
         setText_norefresh("Temp:" + t + "C\n" + "Humidity :" + h + "%")
 		
         if (temp>20):
-            print ("Hot")
+            print ("Hot\n")
+            print ("Men, wear loose shorts, denim shorts, T-shirts, tank tops, sunglasses, tropical shirts, caps, sombreros, bucket hats, denim jackets, cardigans, light jeans\n")
+            print ("Women, wear skirts, crop tops, sundresses, sunglasses, bucket hats, caps, tank tops, swimwear, sandals, denim jackets, cardigans, light jeans, denim shorts\n")
+            print ("Make sure you stay hydrate and have sunscreen on.\n\n")
             setRGB(255,0,0)
         else:
-            print ("Cold")
+            print ("Cold\n")
+            print ("Men, wear coats, jackets, bombers, parkas, jeans and warm pants, boots, scarves, beanies, gloves, and hoodies\n")
+            print ("Women, wear coats, jackets, bombers, parkas, jeans and warm pants, boots, scarves, beanies, gloves, and hoodies\n")
+            print ("Make sure you stay warm, or else you'll freeze to death.\n\n")
             setRGB(0,0,255)
 	
 
