@@ -3,8 +3,8 @@ from grove_rgb_lcd import *
 from time import sleep
 from math import isnan
 
-dht_sensor_port = 7 # connect the DHt sensor to port 7
-dht_sensor_type = 0 # use 0 for the blue-colored sensor and 1 for the white-colored sensor
+dht_sensor_port = 7 # connect the DHt sensor to port 7. This is for the GrovePi Temperature/Humidity Sensor.
+dht_sensor_type = 0 # use 0 for the blue-colored sensor and 1 for the white-colored sensor. This is for the RGB LCD Display.
 
 setRGB(0,255,0)
 
