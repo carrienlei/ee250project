@@ -4,9 +4,10 @@
 - team member 1: Ishraq Rahman
 - team member 2: Carrie Lei
 
-Link to our Video Demo: https://drive.google.com/drive/folders/1Ju48B9d3jF7ujeGPnRrjpIHEtJ0Jq3l4?usp=sharing
+Link to our Video Demo: 
+https://drive.google.com/drive/folders/1Ju48B9d3jF7ujeGPnRrjpIHEtJ0Jq3l4?usp=sharing
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------
 
 ---------------------Project Description---------------------
 This project is our EE250 final project assignment.
@@ -17,7 +18,11 @@ to develop our weather stylist where we have a sensor measuring temperature and 
 and collect data. We will be using our RapsberryPi and laptop to have them communicate 
 with each other as data is being collected through our sensor.
 
-The Machine Learning... 
+To run the interactive prediction model, make sure to run the Jupyter notebook titled "tempPrediction.ipynb"
+after downloading the "LosAngelesTempData.csv" into the same directory. This data was trimmed from 
+a larger dataset found from Kaggle here:
+https://www.kaggle.com/datasets/selfishgene/historical-hourly-weather-data?resource=download .
+
 ---------------------------------------------------------------
 
 ---------------------Instruction Manual------------------------
@@ -27,6 +32,10 @@ Python libraries used:
 - grove_rgb_lcd 
 - time 
 - math 
+- numpy
+- matplotlib
+- pandas
+- sklearn (linear_model & LinearRegression)
 
 We have used one source as a reference to implement code of the weather 
 station and have both RaspberryPi and our local device (laptops) to 
@@ -43,5 +52,8 @@ You can refer to what ports are being used to connect the components
 on the GrovePi Shield through the ee250project.py file. You may also
 use this python file to utilize our program that is meant for the 
 RaspberryPi. 
+
+For the predictive model, the user inputs four parameters (humidity, pressure, windspeed and month) 
+and the program will return the predicted LA temperature (in Fahrenheit) given those conditions.
 
 ---------------------------------------------------------------
