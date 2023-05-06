@@ -7,8 +7,9 @@
 Link to our Video Demo: 
 https://drive.google.com/drive/folders/1Ju48B9d3jF7ujeGPnRrjpIHEtJ0Jq3l4?usp=sharing
 
+-------------------------------------------------------------
 
----------------------Project Description---------------------
+Project Description:
 This project is our EE250 final project assignment.
 
 By reflecting the ideology of node to node communication, we're going to use
@@ -22,8 +23,9 @@ after downloading the "LosAngelesTempData.csv" into the same directory. This dat
 a larger dataset found from Kaggle here:
 https://www.kaggle.com/datasets/selfishgene/historical-hourly-weather-data?resource=download .
 
+---------------------------------------------------------------
 
----------------------Instruction Manual------------------------
+Instruction Manual:
 
 Python libraries used:
 - grovepi 
