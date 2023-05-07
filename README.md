@@ -7,6 +7,9 @@
 Link to our Video Demo: 
 https://drive.google.com/drive/folders/1Ju48B9d3jF7ujeGPnRrjpIHEtJ0Jq3l4?usp=sharing
 
+Link to Project Write-Up:
+https://docs.google.com/document/d/1WSx-mhx1qgWUKyjlRXH-mfjNvMAqR-yDcCq0VRLwhD8/edit
+
 -------------------------------------------------------------
 
 Project Description:
